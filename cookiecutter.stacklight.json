@@ -1,0 +1,30 @@
+{
+    "cluster_name"                              : "itxtree",
+
+    "stacklight_monitor_address"                : "172.17.18.43",
+    "stacklight_monitor_node01_address"         : "172.17.18.44",
+    "stacklight_monitor_node02_address"         : "172.17.18.45",
+    "stacklight_monitor_node03_address"         : "172.17.18.46",
+    "stacklight_monitor_hostname"               : "mon",
+    "stacklight_monitor_node01_hostname"        : "mon01",
+    "stacklight_monitor_node02_hostname"        : "mon02",
+    "stacklight_monitor_node03_hostname"        : "mon03",
+
+    "stacklight_log_address"                    : "172.17.18.47",
+    "stacklight_log_node01_address"             : "172.17.18.48",
+    "stacklight_log_node02_address"             : "172.17.18.49",
+    "stacklight_log_node03_address"             : "172.17.18.50",
+    "stacklight_log_hostname"                   : "log",
+    "stacklight_log_node01_hostname"            : "log01",
+    "stacklight_log_node02_hostname"            : "log02",
+    "stacklight_log_node03_hostname"            : "log03",
+
+    "stacklight_telemetry_address"              : "172.17.18.51",
+    "stacklight_telemetry_node01_address"       : "172.17.18.52",
+    "stacklight_telemetry_node02_address"       : "172.17.18.53",
+    "stacklight_telemetry_node03_address"       : "172.17.18.54",
+    "stacklight_telemetry_hostname"             : "mtr",
+    "stacklight_telemetry_node01_hostname"      : "mtr01",
+    "stacklight_telemetry_node02_hostname"      : "mtr02",
+    "stacklight_telemetry_node03_hostname"      : "mtr03"
+}

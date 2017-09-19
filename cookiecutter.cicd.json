@@ -1,0 +1,21 @@
+{
+    "cluster_name"                              : "itxtree",
+    "cicd_control_vip_address"                  : "172.17.18.10",
+    "cicd_control_node01_address"               : "172.17.18.11",
+    "cicd_control_node02_address"               : "172.17.18.12",
+    "cicd_control_node03_address"               : "172.17.18.13",
+
+    "cicd_control_vip_hostname"                 : "cid",
+    "cicd_control_node01_hostname"              : "cid01",
+    "cicd_control_node02_hostname"              : "cid02",
+    "cicd_control_node03_hostname"              : "cid03",
+
+
+    "salt_api_password"                         : "<<WILL_BE_GENERATED>>",
+    "cicd_private_key"                          : "<<WILL_BE_GENERATED>>",
+    "cicd_public_key"                           : "<<WILL_BE_GENERATED>>",
+
+    "openldap_enabled"                          : "True",
+    "openldap_organisation"                     : "${_param:cluster_name}",
+    "openldap_domain"                           : "${_param:cluster_domain}"
+}

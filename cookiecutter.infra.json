@@ -1,0 +1,55 @@
+{
+    "cluster_name"                              : "itxtree",
+    "cluster_domain"                            : "itnetworx.ch",
+    "public_host"                               : "${_param:openstack_proxy_address}",
+    "reclass_repository"                        : "https://github.com/itxlieni/mcp.git",
+
+    "local_repositories"                        : "False",
+    "local_repo_url"                            : "${_param:cicd_control_vip_address}",
+
+    "deploy_network_netmask"                    : "255.255.255.0",
+    "deploy_network_gateway"                    : "10.20.3.1",
+    "control_network_netmask"                   : "255.255.255.192",
+    "dns_server01"                              : "8.8.8.8",
+    "dns_server02"                              : "8.8.4.4",
+    "control_vlan"                              : "131",
+    "tenant_vlan"                               : "133",
+    "tenant_network_netmask"                    : "255.255.255.192",
+    "tenant_network_gateway"                    : "172.17.18.129",
+
+    "infra_deploy_nic"                          : "eno1",
+    "infra_primary_first_nic"                   : "eno49",
+    "infra_primary_second_nic"                  : "eno50",
+
+    "salt_master_address"                       : "172.17.18.9",
+    "salt_master_management_address"            : "172.17.17.201",
+    "salt_master_hostname"                      : "cfg01",
+    "salt_api_password_hash"                    : "<<WILL_BE_GENERATED>>",
+
+    "maas_deploy_address"                       : "10.20.3.6",
+    "maas_hostname"                             : "mas01",
+
+    "infra_kvm_vip_address"                     : "172.17.18.4",
+    "infra_kvm01_control_address"               : "172.17.18.5",
+    "infra_kvm02_control_address"               : "172.17.18.6",
+    "infra_kvm03_control_address"               : "172.17.18.7",
+    "infra_kvm01_deploy_address"                : "172.17.17.197",
+    "infra_kvm02_deploy_address"                : "172.17.17.198",
+    "infra_kvm03_deploy_address"                : "172.17.17.199",
+    "infra_kvm01_hostname"                      : "kvm01",
+    "infra_kvm02_hostname"                      : "kvm02",
+    "infra_kvm03_hostname"                      : "kvm03",
+
+    "infra_bond_mode"                           : "active-backup",
+
+    "openstack_network_engine"                  : "opencontrail",
+    "openstack_enabled"                         : "True",
+    "stacklight_enabled"                        : "True",
+    "cicd_enabled"                              : "True",
+    "kubernetes_enabled"                        : "False",
+
+    "openstack_nfv_dpdk_enabled"                : "False",
+    "openstack_nfv_sriov_enabled"               : "False",
+
+    "openstack_compute_count"                   : "1"
+}

@@ -1,0 +1,30 @@
+{
+    "cluster_name"                              : "itxtree",
+    "opencontrail_analytics_address"            : "172.17.18.37",
+    "opencontrail_analytics_node01_address"     : "172.17.18.38",
+    "opencontrail_analytics_node02_address"     : "172.17.18.39",
+    "opencontrail_analytics_node03_address"     : "172.17.18.40",
+    "opencontrail_analytics_hostname"           : "nal",
+    "opencontrail_analytics_node01_hostname"    : "nal01",
+    "opencontrail_analytics_node02_hostname"    : "nal02",
+    "opencontrail_analytics_node03_hostname"    : "nal03",
+
+    "opencontrail_control_address"              : "172.17.18.33",
+    "opencontrail_control_node01_address"       : "172.17.18.33",
+    "opencontrail_control_node02_address"       : "172.17.18.33",
+    "opencontrail_control_node03_address"       : "172.17.18.33",
+    "opencontrail_control_hostname"             : "ntw",
+    "opencontrail_control_node01_hostname"      : "ntw01",
+    "opencontrail_control_node02_hostname"      : "ntw02",
+    "opencontrail_control_node03_hostname"      : "ntw03",
+
+    "opencontrail_router01_hostname"            : "rtr01",
+    "opencontrail_router01_address"             : "10.167.4.100",
+    "opencontrail_router02_hostname"            : "rtr02",
+    "opencontrail_router02_address"             : "10.167.4.101",
+
+    "opencontrail_compute_iface"                : "bond0.${_param:tenant_vlan}",
+    "opencontrail_compute_iface_mask"           : "26",
+
+    "openstack_nfv_dpdk_enabled"                : "False"
+}
